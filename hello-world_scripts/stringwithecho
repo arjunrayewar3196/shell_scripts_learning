@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "one" "two" "three" "four"
+
+#\ back slash will use if we wrote in two lines it will bring i =n 1st line incase space nt there it will consider 1st line part
+echo "one" "two" \
+         "three" "four" "five"
+###output ##########
+# $ ./stringwithecho 
+
+## one two three four five   \ is string continewous character

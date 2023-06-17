@@ -1,0 +1,7 @@
+#!/bin/bash -x
+echo "one"
+echo "two"
+echo "three"
+ls
+
+# -x display all the commands executed allong with the result 

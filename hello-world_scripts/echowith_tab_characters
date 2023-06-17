@@ -1,0 +1,4 @@
+#!/bin/bash
+echo -e "one\ttwo\tthree\tfour"
+
+# -e and \t will allow it to seperate with tabspcae and not consider as a single string

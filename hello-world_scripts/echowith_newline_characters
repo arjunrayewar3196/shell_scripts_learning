@@ -1,0 +1,4 @@
+#!/bin/bash
+echo -e "one\ntwo\nthree\nfour"
+
+# -e and \n will allow it to seperate with new line and not consider as a single string

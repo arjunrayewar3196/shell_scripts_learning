@@ -1,0 +1,5 @@
+#!/bin/bash
+echo " my favorate 'movie' is \"ddlj\""
+ 
+
+ # \ will allow us to print the double quotes"

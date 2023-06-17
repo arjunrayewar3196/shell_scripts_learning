@@ -1,0 +1,5 @@
+#!/bin/bash
+echo " my favorate 'movie' is \"ddlj\"" > ./file.txt
+
+
+# > ./filename will allow us to create the file 

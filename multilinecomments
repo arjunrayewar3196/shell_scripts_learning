@@ -1,0 +1,9 @@
+#!/bin/bash
+<< arjuncomment
+echo " my favorate 'movie' is \"ddlj\"" > ./file.txt
+echo " my favorate book \"arjun\"" >> ./file.txt
+arjuncomment
+
+echo "arjun is my name"
+
+# > ./filename will allow us to create the file 

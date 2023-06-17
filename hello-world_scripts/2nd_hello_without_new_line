@@ -1,0 +1,6 @@
+#!/bin/bash
+echo -n "hello"
+echo "world"
+
+echo "this is"
+echo "new line"
