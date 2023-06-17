@@ -1,0 +1,6 @@
+#!/bin/bash
+VAR=$HOSTNAME
+echo "$VAR"
+
+
+# for showing hostname

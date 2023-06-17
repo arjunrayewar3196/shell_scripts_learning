@@ -1,0 +1,7 @@
+#!/bin/bash
+#create the symbolic link write to link file, cat linked file, for file.txt considoring as link1 as creating symbol link
+
+ln -s file.txt link1
+ls
+echo "writing inside the link1" >> link1
+cat link1

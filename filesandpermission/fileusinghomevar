@@ -1,0 +1,9 @@
+#!/bin/bash
+#writing a file in home directiry using home var it will create the file in home directory
+HOMENAME="/c/Users/SLIM 3/OneDrive/Desktop/Git-repos/shell_scripts_learning"
+cd "$HOMENAME"
+echo "I like i20" > file.txt
+cat file.txt
+
+#TOUCH TO CREATE FILE
+touch arjun.test

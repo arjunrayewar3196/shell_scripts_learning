@@ -1,0 +1,8 @@
+#!/bin/bash
+#underscorevar use touch file and user undersocrevar to append it >> append > create new or overwide
+
+UND_VAR="HELLO LINUX AUDIANCE"
+touch new.txt
+echo "$UND_VAR" >> new.txt
+
+cat new.txt

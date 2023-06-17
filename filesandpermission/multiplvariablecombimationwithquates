@@ -1,0 +1,6 @@
+#!/bin/bash
+
+a='this is a car'
+b='and brand is a benz'
+c="${a} ${b}"
+echo "${c}"

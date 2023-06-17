@@ -1,0 +1,3 @@
+#!/bin/bash
+#giving chmod executable permission to file 
+chmod +x arjun.test

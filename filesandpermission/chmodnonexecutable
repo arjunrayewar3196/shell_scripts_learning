@@ -1,0 +1,3 @@
+#!/bin/bash
+# chmod -w to  nonexecutable permission to file so it will not allow us to write
+chmod -w arjun.test

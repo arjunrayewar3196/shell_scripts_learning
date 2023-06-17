@@ -1,0 +1,6 @@
+#!/bin/bash
+VAR_HOME=$USER
+echo "$VAR_HOME"
+
+
+#$home will show home directory and ls$var_home will show files in home directory
