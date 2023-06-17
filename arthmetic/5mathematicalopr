@@ -1,0 +1,9 @@
+#!/bin/bash
+#5 mathematicoperators using expr
+num1=25
+num2=5
+expr $num1 + $num2a
+expr $num1 - $num2
+expr $num1 \* $num2
+expr $num1 / $num2
+expr $num1 % $num2

@@ -1,0 +1,4 @@
+#!/bin/bash
+VAR1="HELLO WORLD"
+VAR2="how are you"
+echo "${VAR1} ${VAR2}"

@@ -1,0 +1,6 @@
+#!/bin/bash
+#double paranathesious to add with $ var
+var=100
+var=$(($var+10))
+
+echo "$var"

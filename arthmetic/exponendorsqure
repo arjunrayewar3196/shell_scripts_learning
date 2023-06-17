@@ -1,0 +1,10 @@
+#!/bin/bash
+var=$((9**2))
+echo "$var"
+
+#9 square 81
+
+var=$((2**3))
+echo "$var"
+
+#2 qube 8

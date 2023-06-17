@@ -1,0 +1,16 @@
+#!/bin/bash
+#incrementalvaribale with 3times variable operations
+VAR=5
+echo "$VAR"
+VAR="$(( VAR-=1 ))"
+echo "$VAR"
+
+VAR="$(( VAR-=1 ))"
+echo "$VAR"
+
+VAR="$(( VAR-=1 ))"
+echo "$VAR"
+
+
+
+
