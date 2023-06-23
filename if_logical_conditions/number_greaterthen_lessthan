@@ -1,0 +1,8 @@
+#!/bin/bash
+#number is greateter than or not
+VAR=16
+if [ "$VAR" -gt 10 ] && [ "$VAR" -lt 20 ]
+ then 
+  echo "$VAR lies between 10 and 20."
+
+fi

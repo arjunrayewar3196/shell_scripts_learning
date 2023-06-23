@@ -1,0 +1,10 @@
+#!/bin/bash
+# equal to means == if not equal means !=
+VAR=16
+RAV=20
+if (( $VAR == $RAV ))
+then
+  echo "both the numbers are equal"
+  else
+  echo "test vars are not equal"
+fi

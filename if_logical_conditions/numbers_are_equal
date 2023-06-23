@@ -1,0 +1,7 @@
+#!/bin/bash
+#number is greateter equal less than equa; 
+VAR=25
+if (( $VAR >= 20 )) && (( $VAR <= 30 ))
+ then 
+  echo "$VAR lies between 10 and 20."
+fi
