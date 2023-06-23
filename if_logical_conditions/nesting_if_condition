@@ -1,0 +1,10 @@
+#!/bin/bash
+# if else nested conditon 
+VAR=6
+if [ $VAR -gt 1 ]
+then
+    if [ $VAR -lt 10 ]
+    then 
+    echo "then number lies in between 1to 10"
+    fi  
+fi

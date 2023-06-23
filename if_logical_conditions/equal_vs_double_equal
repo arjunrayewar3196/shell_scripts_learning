@@ -1,0 +1,13 @@
+#!/bin/bash
+# equal and double equal conditions
+VAR='HELLO'
+RAV='world'
+if [ $VAR = $RAV ]
+then
+    if [ $VAR == $RAV ]
+    then 
+    echo "both equal and double equeal operators are same"
+    fi  
+else 
+   echo "both equal and doubke equal are not same"
+fi

@@ -1,0 +1,10 @@
+#!/bin/bash
+#two stings before after alphabetically
+VAR='HELLO'
+RAV='WORLD'
+if [ $VAR == $RAV ]
+ then 
+  echo "both the stings are same alphabetically"
+ else
+  echo "both the stings are not same"
+fi

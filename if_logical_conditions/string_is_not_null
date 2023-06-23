@@ -1,0 +1,9 @@
+#!/bin/bash
+#string is not null
+VAR='HELLO'
+if [[ $VAR = '' ]]
+ then 
+  echo " the stings is null"
+ else
+  echo "the stings is not null"
+fi

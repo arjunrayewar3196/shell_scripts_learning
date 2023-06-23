@@ -1,0 +1,10 @@
+#!/bin/bash
+#not equal to operator !=
+VAR='HELLO'
+RAV='HELLO'
+if [ $VAR != $RAV ]
+then
+ echo "both the stings are not same"
+else
+ echo "both the strins are same"
+fi
