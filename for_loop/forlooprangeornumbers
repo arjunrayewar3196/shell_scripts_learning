@@ -1,4 +1,4 @@
 #!/bin/bash
-for i in {10..20}; do
+for i in {10..25}; do
    echo "printing the value: $i"
 done

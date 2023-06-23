@@ -1,5 +1,5 @@
 #!/bin/bash
-CAR=Toyota
+CAR=marazzo
 case $CAR in
      Toyota)
          echo "it's Toyota"

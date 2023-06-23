@@ -1,5 +1,5 @@
 #!/bin/bash
-#asking var value from users
+#asking var value from users  according caommnd line it will print 
 case $1 in
      req*)
          echo "it's requirement or request"

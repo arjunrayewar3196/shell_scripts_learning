@@ -1,5 +1,5 @@
 #!/bin/bash
-VAR=40
+VAR=5
 case $VAR in
      10)
          echo "it's 10"

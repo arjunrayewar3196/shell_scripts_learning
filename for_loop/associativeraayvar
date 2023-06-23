@@ -1,0 +1,7 @@
+#!/bin/bash
+# create an associative array var access by  index
+declare -A VAR
+VAR[n1]=arjun
+VAR[n2]=karan
+VAR[n3]=rayewar
+echo "${VAR[n3]}"

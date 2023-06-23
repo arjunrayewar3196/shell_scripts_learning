@@ -1,0 +1,9 @@
+#!/bin/bash
+#condition break or stop
+for i in {1..10};do
+  if (( $i <= 6 ));then
+    echo  $i;
+  else
+    break;
+fi
+done

@@ -1,0 +1,9 @@
+#!/bin/bash
+#continue condition it will just skip 4 other than that it will continues till 1-10
+for i in {1..20};do
+  if (( $i == 4 )) || (( $i == 5));then
+    continue;
+  else
+    echo $i;
+fi
+done

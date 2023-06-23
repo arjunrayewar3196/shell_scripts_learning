@@ -1,0 +1,5 @@
+#!/bin/bash
+NAME=('ARJUN' 'KARAN' 'RAYEWAR' '4' '5')
+for i in ${NAME[@]};do
+echo "$i"
+done

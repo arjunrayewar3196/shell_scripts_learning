@@ -1,0 +1,4 @@
+#!/bin/bash
+#array accesing the var by using the index number 
+NAME=( 'arjun' 'karan' 'rayewar' )
+echo "${NAME[2]}"
