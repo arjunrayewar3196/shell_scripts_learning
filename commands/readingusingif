@@ -1,0 +1,11 @@
+#!/bin/bash
+FILE='file.txt'
+n=0
+while read line; do
+   echo "Line no- $n : $line"
+   n=$((n+1))
+if ((n>5));
+then
+break;
+fi
+done < $FILE
