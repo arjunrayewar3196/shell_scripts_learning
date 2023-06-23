@@ -1,0 +1,4 @@
+#!/bin/bash
+#execute a command and captur the stdoutput in other file 
+VAR=$(cat arjun.txt)
+echo "$VAR" > output.txt

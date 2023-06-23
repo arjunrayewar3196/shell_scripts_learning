@@ -1,0 +1,13 @@
+#!/bin/bash
+#asking var value from users
+case $1 in
+     req*)
+         echo "it's requirement or request"
+         ;;
+     meet*)
+         echo "it's meeting"
+         ;;
+     *)
+        echo "its default statement"
+esac
+

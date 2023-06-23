@@ -1,0 +1,9 @@
+#!/bin/bash
+# -f flag will use to check if the file is exist or not
+FILE=file.txt
+if [ -f $FILE ]
+then
+  echo "file exists"
+else
+  echo "file does not exists"
+fi

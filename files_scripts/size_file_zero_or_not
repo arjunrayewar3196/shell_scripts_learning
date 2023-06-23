@@ -1,0 +1,9 @@
+#!/bin/bash
+# -s flag will use to check if the file is zero or not
+FILE=arjun.txt
+if [ -s $FILE ]
+then
+  echo "file size is zero"
+else
+  echo "file size is not zero"
+fi

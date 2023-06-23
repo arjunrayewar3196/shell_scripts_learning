@@ -1,0 +1,9 @@
+#!/bin/bash
+# -l symbolic link 
+PATH=link1
+if [[ -L $PATH ]]
+then
+  echo "given data is symbol link"
+else
+  echo "given data is not a symbolic link"
+fi

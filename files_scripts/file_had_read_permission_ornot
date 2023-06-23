@@ -1,0 +1,9 @@
+#!/bin/bash
+# -r read permission, -w write permissions or not -x to check executable permissions 
+PATH=arjun.txt
+if [[ -r $PATH ]]
+then
+  echo "file have reead permissions"
+else
+  echo "file dont have read permissions"
+fi

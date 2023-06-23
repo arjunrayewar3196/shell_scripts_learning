@@ -1,0 +1,4 @@
+#!/bin/bash
+#execute a command in $ () paranthisious variableit will register in variable and then print same as setfcat and debug "VAR=$then ( command)""
+VAR=$(cat arjun.txt)
+echo "$VAR"

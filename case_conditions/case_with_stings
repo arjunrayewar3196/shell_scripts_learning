@@ -1,0 +1,20 @@
+#!/bin/bash
+CAR=Toyota
+case $CAR in
+     Toyota)
+         echo "it's Toyota"
+         ;;
+     Honda)
+         echo "it's honda"
+         ;;
+     maroti)
+         echo "it's marothi"
+         ;;
+     BMW)
+         echo "it's BMW"
+         ;;
+     *)
+        echo "its seems like another car"
+         ;;
+esac
+

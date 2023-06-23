@@ -1,0 +1,12 @@
+#!/bin/bash
+# -d directory -f file can check its file or directory elif else if 
+PATH=dir
+if [[ -d $PATH ]]
+then
+  echo "file IS A DIRECTORY"
+elif [[ -f $PATH ]]
+then
+  echo "this is a file"
+else
+  echo "this is not a valid file"
+fi

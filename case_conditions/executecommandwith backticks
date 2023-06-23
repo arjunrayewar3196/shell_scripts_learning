@@ -1,0 +1,5 @@
+#!/bin/bash
+#\ back ticks to exevute the command 
+cat \arjun.txt
+ls \
+chown arjun \dir #change the owner of directory 

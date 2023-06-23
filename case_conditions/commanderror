@@ -1,0 +1,4 @@
+#!/bin/bash
+#execute a command and captur the errort in other file 
+VAR=$(cat arjun.txt)
+$VAR > stderr.txt

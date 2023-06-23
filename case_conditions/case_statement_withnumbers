@@ -1,0 +1,20 @@
+#!/bin/bash
+VAR=40
+case $VAR in
+     10)
+         echo "it's 10"
+         ;;
+     20)
+         echo "it's 20"
+         ;;
+     30)
+         echo "it's 30"
+         ;;
+     40)
+         echo "it's 40"
+         ;;
+     *)
+        echo "its something else"
+         ;;
+esac
+
