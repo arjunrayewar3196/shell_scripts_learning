@@ -1,0 +1,6 @@
+#!/bin/bash
+VAR1="HELLO WORLD"
+VAR2="THIS IS 2ND LINE"
+
+VAR1+="$VAR2"
+echo "$VAR1"

@@ -1,0 +1,8 @@
+#!/bin/bash
+VAR=4
+if [[ $VAR -gt 5 ]] && [[ $VAR -lt 8 ]];
+then
+  echo "GOOD"
+  else
+  echo "BAD"
+fi

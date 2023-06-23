@@ -1,0 +1,8 @@
+#!/bin/bash
+VAR=8
+if [ $VAR -gt 10 ]
+then
+   echo "Good"
+   else
+   echo "BAD"
+fi
