@@ -1,0 +1,7 @@
+#!/bin/bash
+# both the conditions have to be true  "&& and operator"
+VAR=4
+if [[ $VAR -gt 5 ]] && [[ $VAR -lt 8 ]];
+then
+  echo "GOOD"
+fi

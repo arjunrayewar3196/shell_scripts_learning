@@ -1,0 +1,15 @@
+#!/bin/bash
+# if else conditions of marks scanarios
+VAR=40
+if [ $VAR -gt 90 ]
+then
+  echo "Excellent!.........."
+elif [ $VAR -gt 60 ]
+then
+  echo "GOOD"
+elif [ $VAR -gt 50 ]
+then
+  echo "just satisfactory"
+else
+  echo "NOT OKAY, FAILED."
+fi

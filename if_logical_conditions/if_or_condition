@@ -1,0 +1,7 @@
+#!/bin/bash
+# any one conditions should be true " or we defined with || double pipe"
+VAR=16
+if [[ $VAR -gt 15 ]] || [[ $VAR -lt 20 ]];
+then
+  echo "One or both the conditions are true"
+fi
